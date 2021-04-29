@@ -5,5 +5,15 @@ const table = [
     fruit: "Kiwi",
     animal: "Koala",
   },
+  {
+    name: "Louiza",
+    fruit: "Datte",
+    animal: "Neat",
+  },
+  {
+    name: "Olga",
+    fruit: "Mangue",
+    animal: "Cat",
+  },
 ];
 });
