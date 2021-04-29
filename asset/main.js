@@ -1,10 +1,11 @@
-$(document).ready(function(){
 
-const table = [
-  {
-    name: "Olga",
-    fruit: "Mangue",
-    animal: "Cat",
-  },
-];
-});
+  $(document).ready(function(){
+    const table = [
+        {
+            name : "Wiam",
+            fruit : "Orange",
+            animal : "dog"
+        },
+    ];
+    });
+
