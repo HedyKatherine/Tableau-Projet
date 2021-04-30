@@ -1,6 +1,11 @@
 $(document).ready(function(){
 const table = [
   {
+    name: "Saphir",
+    fruit: "kiwi",
+    animal: "Koal",
+  },
+  {
     name : "Wiam",
     fruit : "Orange",
     animal : "dog"
