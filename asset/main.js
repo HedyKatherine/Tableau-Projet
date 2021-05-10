@@ -26,5 +26,21 @@ const table = [
     animal: "Cat",
   },
 ];
+
+const createTd = (key, value) => {
+  const $el = document.createElement("td");
+  $el.classList.add(`input_${key}`);
+  $el.innerText = value;
+  return $el;
+};
+
+table.forEach((input) => {
+  const $input = document.createElement("tr");
+  $input.classList.add("input");
+  $input.appendChild(createTd("name", input.name));
+  $input.appendChild(createTd("fruit", input.fruit));
+  $input.appendChild(createTd("animal", input.animal));
+  document.querySelector("tbody").appendChild($input);
 });
 
+});
