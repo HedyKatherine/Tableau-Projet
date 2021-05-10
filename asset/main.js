@@ -20,6 +20,11 @@ const table = [
     fruit: "Mangue",
     animal: "Cat",
   },
+  {
+    name: "Katherine",
+    fruit: "Raspberry",
+    animal: "Cat",
+  },
 ];
 });
 
